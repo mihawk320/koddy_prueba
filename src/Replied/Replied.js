@@ -44,7 +44,7 @@ function Replied() {
     <div>
       {" "}
       <button type="button" className="btn btn-outline-primary">
-        {repliedItems.length} Comentarios
+        {repliedItems.length} Comentarios de {userNameR}
       </button>
       <RepliedCreator callback={createNewReplied} />
       <div> {repliedTableRows()} </div>
