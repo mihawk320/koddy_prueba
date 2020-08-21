@@ -1,0 +1,13 @@
+.main_icono {
+  width: 30px;
+}
+.main_hr_article {
+  width: 30%;
+  float: left;
+  height: 2px;
+  background-color: black;
+}
+
+.main_imagen {
+  width: 100%;
+}

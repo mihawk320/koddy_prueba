@@ -1,0 +1,25 @@
+.plus-minus:after,
+.plus-minus.collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.plus-minus:after {
+  content: "-";
+  top: -1px;
+}
+.plus-minus.collapsed:after {
+  content: "+";
+  top: 0;
+}
+
+.TaskRow_texto {
+  color: black;
+}
+
+.TaskRow_fondo {
+  background-color: #f2f2f2;
+}
